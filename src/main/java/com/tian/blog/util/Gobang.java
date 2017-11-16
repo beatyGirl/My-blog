@@ -2,6 +2,8 @@ package com.tian.blog.util;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseWheelEvent;
 
 public class Gobang extends JFrame implements GobangInterface {
 
@@ -60,7 +62,7 @@ public class Gobang extends JFrame implements GobangInterface {
     }
 
     public void addMouseLisener(GobangListener gobangListener){
-
+        gobangListener.mouseReleased(null);
     }
 
 }
