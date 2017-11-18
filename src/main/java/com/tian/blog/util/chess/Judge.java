@@ -1,6 +1,4 @@
-package com.tian.blog.util;
-
-import com.sun.javafx.css.StyleableProperty;
+package com.tian.blog.util.chess;
 
 import javax.swing.*;
 import java.awt.*;

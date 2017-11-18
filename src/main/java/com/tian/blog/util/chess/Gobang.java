@@ -1,9 +1,7 @@
-package com.tian.blog.util;
+package com.tian.blog.util.chess;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseWheelEvent;
 
 public class Gobang extends JFrame implements GobangInterface {
 

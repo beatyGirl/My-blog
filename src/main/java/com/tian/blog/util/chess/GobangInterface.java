@@ -1,4 +1,4 @@
-package com.tian.blog.util;
+package com.tian.blog.util.chess;
 
 public interface GobangInterface {
     //棋子的大小

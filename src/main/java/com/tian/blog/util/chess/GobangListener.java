@@ -1,6 +1,4 @@
-package com.tian.blog.util;
-
-import com.sun.org.apache.bcel.internal.generic.SIPUSH;
+package com.tian.blog.util.chess;
 
 import java.awt.*;
 import java.awt.event.MouseAdapter;
