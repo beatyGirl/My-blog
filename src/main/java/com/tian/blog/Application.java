@@ -10,7 +10,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @SpringBootApplication
 @EnableTransactionManagement
-// 扫描的是mapper.xml中namespace指向值的包位置
+// 扫描的是mapper.xml中namespace指向值的包位置(已修改)
 @MapperScan("com.tian.blog.dao")
 public class Application {
     public static void main(String[] args){
